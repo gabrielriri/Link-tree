@@ -10,14 +10,16 @@
 
 :root{
     --black: #020402;
-    --reseda-green: #758173;
-    --green: #C5EFCB;
+    --reseda-green: #162CF4;
+    --green: #418BF2;
+    --dar-blue: #04021F;
     --white: #FFF;
 }
 body{
     background-color: var(--black);
     height: 100vh;
-    display: flax;
+    display: flex;
+    text-align: center;
     justify-content:center;
     align-items: center;
 }
@@ -55,7 +57,7 @@ ul, li {
 
 a {
     display:block;
-    background-color: va(--reseda-green);
+    background-color: var(--dar-blue);
     margin-bottom: 16px;
     padding: 12px;
     color: var(--white);
@@ -63,6 +65,7 @@ a {
     font-size: 14px;
     font-weight:700;
     border-radius: 8px;
+    
 
 }
 a:hover{
