@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+
+}
+
+:root{
+    --black: #020402;
+    --reseda-green: #758173;
+    --green: #C5EFCB;
+    --white: #FFF
+}
+body{
+    background-color: var(--black);
+    
+}
+div{
+    background-color: var(--reseda-green);
+    color: var(--white);
+    width: 384px;
+}
