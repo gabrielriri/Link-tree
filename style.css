@@ -12,24 +12,28 @@
     --black: #020402;
     --reseda-green: #758173;
     --green: #C5EFCB;
-    --white: #FFF
+    --white: #FFF;
 }
 body{
     background-color: var(--black);
-    
+    height: 100vh;
+    display: flax;
+    justify-content:center;
+    align-items: center;
 }
 div{
     background-color: var(--reseda-green);
     color: var(--white);
     width: 384px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
 }
 img{
     width: 88px;
     border-radius: 50%;
     margin-bottom: 24px;
-    test-align: center;
-    border-radius: 12px;
-    padding: 40px;
+
 }
 h1{
     font-size: 24px;
@@ -62,7 +66,7 @@ a {
 
 }
 a:hover{
-    background-colo: var(--green);
-    color: var(--black)
+    background-color: var(--green);
+    color: var(--black);
     transition: 0.4s;
 }
