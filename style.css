@@ -23,3 +23,46 @@ div{
     color: var(--white);
     width: 384px;
 }
+img{
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    test-align: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+h1{
+    font-size: 24px;
+    font-weight:600;
+    margin-bottom: 4px;
+}
+strong{
+    color: var(--white);
+    font-size: 14px;
+}
+p{
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    display:block;
+    background-color: va(--reseda-green);
+    margin-bottom: 16px;
+    padding: 12px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:700;
+    border-radius: 8px;
+
+}
+a:hover{
+    background-colo: var(--green);
+    color: var(--black)
+    transition: 0.4s;
+}
